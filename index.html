@@ -1,0 +1,48 @@
+
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới Thiệu Bản Thân</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <div class="profile">
+            <img src="avatar.jpg" alt="Avatar" class="avatar">
+            <h1 class="title">Hà Thị Thu Thủy</h1>
+            <p class="description">Front-End Developer</p>
+            <button class="show-details" onclick="showDetails()">Xem thêm</button>
+        </div>
+        <div class="details">
+            <div class="contact">
+                <h2>Thông Tin Liên Hệ</h2>
+                <ul>
+                    <li>Email: hathithuthuy0854623411@gmailgmail.com</li>
+                    <li>Mã số sinh viên: 2180601544</li>
+                    <li>Lớp: 21DTHB3</li>
+                    <li>Điện thoại: 0865110203</li>
+                    <li>Địa chỉ: TP. Hồ Chí Minh</li>
+                </ul>
+            </div>
+            <div class="skills">
+                <h2>Kỹ Năng</h2>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>React.js, Vue.js</li>
+                    <li>UI/UX Design</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Giới thiệu chi tiết</h2>
+            <p>Xin chào! Mình là Hà Thị Thu Thủy, một lập trình viên với niềm đam mê công nghệ và phát triển phần mềm. Mình có kinh nghiệm làm việc với các ngôn ngữ như Java, C/C++, .NET, PHP và sử dụng các framework như Spring Boot, Node.js. Hiện tại, mình đang ứng tuyển vào FPT Software và mong muốn được làm việc trong một môi trường chuyên nghiệp để phát triển kỹ năng và đóng góp giá trị. Rất vui được kết nối và học hỏi cùng mọi người! 🚀</p>
+        </div>
+    </div>
